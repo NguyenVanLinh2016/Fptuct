@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6600</color>
+    <color name="colorPrimaryDark">#FF6600</color>
+    <color name="primary_dark">#F57C00</color>
+    <color name="colorAccent">#FF9900</color>
+    <color name="colorOrange">#FF9900</color>
+    <color name="colorOrangeLight">#FFCC33</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorButton">#EE7A00</color>
+    <color name="colorCard">#FFF1DD</color>
+    <color name="colorQuiz">#FDEDD3</color>
+    <color name="colorBlue">#3366FF</color>
+    <color name="primary_text">#212121</color>
+    <color name="red">#FF0000</color>
+</resources>

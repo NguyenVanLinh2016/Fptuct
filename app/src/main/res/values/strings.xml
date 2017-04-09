@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Đại học FPT Cần Thơ</string>
+    <string name="test1">Trắc nghiệm</string>
+    <string name="gift">Quà tặng</string>
+    <string name="test">Phần thi trắc nghiệm</string>
+    <string name="test_and_gift"></string>
+    <string name="get_gift">Nhận quà tặng</string>
+    <string name="dialog_get_gift">Bạn đã nhận được quà tặng chưa?</string>
+    <string name="test_occupattion">Nghề nghiệp</string>
+    <string name="quiz_test">Phần thi trắc nghiệm</string>
+    <string name="title_spinner">Lựa chọn nghề nghiệp</string>
+    <string name="dialog_exit">Bạn có muốn thoát khỏi chương trình không?</string>
+    <string name="titleDialog">Xác nhận!</string>
+    <string name="setPositiveButton">Không</string>
+    <string name="setNegativeButton">Có</string>
+    <string name="result">Kết quả</string>
+    <string name="dialog_exit_gift">Bạn có muốn thoát khỏi quay quà không?</string>
+    <string name="dialog_exit_quiz">Bạn có muốn thoát khỏi phần làm trắc nghiệm không?</string>
+    <string name="main">Đại học FPT Cần Thơ</string>
+    <string name="rightAnswer">Bạn thật xuất sắc</string>
+    <string name="failAnswer">Bạn chưa chọn đúng</string>
+    <!--Menu quiz activity -->
+    <string name="selectQuestion">Lựa chọn chủ đề</string>
+    <!--Get -->
+    <string name="book">Book</string>
+    <string name="bag">Bag</string>
+    <string name="clock">Clock</string>
+    <string name="bell">Bell</string>
+    <string name="getGiftDone">Bạn đã nhận quà tặng</string>
+    <string name="idConfirm">Mã xác nhận</string>
+    <string name="confirm">Xác nhận tặng quà</string>
+    <string name="finishGift">Bạn đã nhận quà tặng</string>
+    <!-- updateinfo acticity -->
+    <string name="wanna">Bạn quan tâm đến ngành học nào tại Đại học FPT Cần Thơ</string>
+    <string name="other">Khác</string>
+    <string-array name="planets_array">
+        <item>Nghề nghiệp</item>
+        <item>Tính cách</item>
+    </string-array>
+
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test_occupation">TestOccupationActivity</string>
+    <string name="score">Tính điểm</string>
+    <string name="answer_key">Đáp án được chọn</string>
+    <string name="title_activity_test_job">TestJobActivity</string>
+    <string name="title_activity_test_personality">TestPersonalityActivity</string>
+
+    <string name="text_inside_circle_button_text_normal">Menu1</string>
+
+    <string name="tenDangNhap">Tên đăng nhập</string>
+    <string name="matKhau">Mật khẩu</string>
+    <string name="nhapLaiMatKhau">Nhập lại mật khẩu</string>
+    <string name="dangNhap">Đăng nhập</string>
+    <string name="dangKy">Đăng ký</string>
+    <string name="taoTaiKhoan">Tạo tài khoản</string>
+    <string name="quenMatKhau">Quên mật khẩu</string>
+    <string name="dangNhapBang">Hoặc</string>
+    <string name="ghiNho">Ghi nhớ</string>
+    <string name="hoVaTen">Họ và tên</string>
+    <string name="dienThoai">Số điện thoại</string>
+    <string name="email">Email</string>
+    <string name="hoanTat">Hoàn tất</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">426213597770481</string>
+    <string name="fb_login_protocol_scheme">760172780796425</string>
+    <string name="server_client_id">251610737794-soo20q12smni6js0jsbb17lt30ab4u26.apps.googleusercontent.com</string>
+
+    <!--Admin Activity-->
+    <string name="getPosition">Get Position</string>
+</resources>

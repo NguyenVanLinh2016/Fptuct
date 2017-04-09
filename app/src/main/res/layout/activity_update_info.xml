@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin1"
+            tools:ignore="ScrollViewSize">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin1"
+                android:gravity="center_horizontal"
+                android:text="Cập nhật thông tin"
+                android:textColor="@color/colorOrange"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilFullname_UpdateInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtFullname_UpdateInfor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hoVaTen"
+                        android:singleLine="true"
+                        tools:ignore="Deprecated" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilPhone_UpdateInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtPhone_UpdateInfor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/dienThoai"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:singleLine="true"
+                        tools:ignore="Deprecated" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilEmail_UpdateInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtEmailUpDateInfor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        tools:ignore="Deprecated" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilDateOfBirth_UpdateInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edtDateOfBirthUpdateInfor"
+                            android:layout_width="295dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Ngày tháng năm sinh"
+                            android:inputType="date" />
+
+                        <ImageView
+                            android:id="@+id/imgCalendar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="5"
+                            app:srcCompat="@drawable/ic_date_range_black_24dp" />
+
+                    </LinearLayout>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilField_UpdateInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtField_UpdadteInfor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Trường THPT"
+                        android:singleLine="true"
+                        tools:ignore="Deprecated" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilGender_UpdateInfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/RadioGroupGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioNam"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Nam" />
+
+                        <RadioButton
+                            android:id="@+id/radioNu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Nữ" />
+                    </RadioGroup>
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wanna"
+                    android:textSize="18sp"/>
+
+                <com.thomashaertel.widget.MultiSpinner
+                    android:id="@+id/spinnerMulti"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="17dp"
+                    android:layout_marginTop="4dp"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tilField_Other"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtField_UpdadteOther"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/other"
+                        android:singleLine="true"
+                        tools:ignore="Deprecated" />
+                </android.support.design.widget.TextInputLayout>
+                <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btnHoanTat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="@dimen/margin1"
+                    android:text="@string/hoanTat"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    app:pb_colorComplete="@color/green_complete"
+                    app:pb_colorError="@color/red_error"
+                    app:pb_colorNormal="@color/colorOrange"
+                    app:pb_colorPressed="@color/primary_dark"
+                    app:pb_colorProgress="@color/purple_progress"
+                    app:pb_textComplete="Success"
+                    app:pb_textError="Error"
+                    app:pb_textProgress="Loading" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

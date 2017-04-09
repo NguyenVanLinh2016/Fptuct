@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "879548157085",
+    "project_id": "fptuct"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879548157085:android:bb4958d94937a6ae",
+        "android_client_info": {
+          "package_name": "dev.linhnv.fptuct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879548157085-0ebi3ungi5u8dt8smqh0gvffn2kedv44.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "879548157085-csqfem0cq0pqm7ntga9tuq5c7lqie1o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.linhnv.fptuct",
+            "certificate_hash": "abe5adec0d5eac849418684712e771a2852820fb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqybh1tIElkpeqTjUY4nD1O8IGN0zi91E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
